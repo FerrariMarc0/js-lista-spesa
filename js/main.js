@@ -1,15 +1,15 @@
 'use strict';
 
 const marketList= [
-    'vino',
-    'prosecco',
-    'lambrusco',
-    'salatini',
-    'mascarpone',
-    'salsiccia',
-    'pane',
-    'pannolini per Rinaldo',
-    'scottex'
+    'Vino',
+    'Prosecco',
+    'Lambrusco',
+    'Salatini',
+    'Mascarpone',
+    'Salsiccia',
+    'Pane',
+    'Pannolini per Rinaldo',
+    'Scottex'
 ];
 
 marketList.push('pappa lattea', 'omogeneizzati');
