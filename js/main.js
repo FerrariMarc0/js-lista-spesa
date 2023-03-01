@@ -1,5 +1,27 @@
 'use strict';
 
+/* let somma= 0;
+for(let i = 1; i < 5; i++){
+    console.log(i);
+    let newNumber= parseInt(prompt("Inserisci il " + (i) + "° numero"));
+    console.log(newNumber);
+    somma += newNumber;
+}
+console.log(somma); */
+
+let somma = 0;
+let i = 0;
+while(i < 5){
+    let newNumber= parseInt(prompt("Inserisci il " + (i) + "° numero"));
+    somma += newNumber;
+    i++
+}
+console.log(somma);
+
+/************************************************************ */
+
+/* 'use strict';
+
 const marketList= [
     'Vino',
     'Prosecco',
@@ -25,15 +47,15 @@ while(i < x){
     products.append(listItem);
     i++
 }
-console.log(marketList);
+console.log(marketList); */
 
 
 
-/*do{
+/* do{
     const listItem= document.createElement('li');
     listItem.append(marketList[i]);
     products.append(listItem);
     i++
 } while(i < x);
 
-console.log(marketList);*/
+console.log(marketList); */
