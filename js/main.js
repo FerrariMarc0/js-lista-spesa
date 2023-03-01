@@ -10,13 +10,21 @@ for(let i = 1; i < 5; i++){
 console.log(somma); */
 
 let somma = 0;
-let i = 0;
-while(i < 5){
+let i = 1;
+/* while(i <= 5){
     let newNumber= parseInt(prompt("Inserisci il " + (i) + "° numero"));
     somma += newNumber;
     i++
 }
+console.log(somma); */
+
+do{
+    let newNumber= parseInt(prompt("Inserisci il " + (i) + "° numero"));
+    somma += newNumber;
+    i++
+} while(i <= 5);
 console.log(somma);
+
 
 /************************************************************ */
 
